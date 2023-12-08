@@ -1,0 +1,58 @@
+body {
+  background-color: #9500ff;
+}
+
+h1 {
+  color: aqua;
+}
+
+.vill {
+  color: red;
+}
+
+button {
+  border: 0;
+  background-image: linear-gradient(150deg, #9500ff, #09f, #0dff);
+
+  border-radius: 8px;
+  color: blanchedalmond;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 3ms;
+  margin-bottom: 15px;
+}
+
+button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 3ms;
+}
+
+button :hover span {
+  background: none;
+}
+
+button :active {
+  transform: scale(0.9);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dinosaur {
+  background-color: rgb(184, 0, 92);
+  width: 100px;
+  height: 25px;
+  transition: transform 0.1s;
+}
+
+.jump {
+  transform: translateY(-50px);
+}
